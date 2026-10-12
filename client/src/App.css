@@ -135,7 +135,7 @@
       width: 18px;
     }
   }
-
+ 
   @media (max-width: 1024px) {
     margin-top: 20px;
     flex-wrap: wrap;
@@ -181,4 +181,37 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+/* hard to figure out what I can or cant delete above from the default vite stuff. Below is the CSS to format it a little better */
+form {
+  display: grid;
+  gap: 12px;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: grid;
+  gap: 5px;
+  text-align: left;
+}
+
+input,
+textarea {
+  padding: 8px;
+}
+
+button {
+  width: fit-content;
+  padding: 8px 12px;
+}
+
+.saved-items {
+  display: grid;
+  gap: 12px;
+}
+
+.saved-item {
+  padding: 10px;
+  text-align: left;
 }
